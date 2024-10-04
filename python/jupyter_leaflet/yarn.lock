@@ -12,6 +12,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@dguerrero2020/leaflet-splitmap@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@dguerrero2020/leaflet-splitmap@npm:1.0.3"
+  dependencies:
+    css-img-datauri-stream: ^0.1.5
+    cssify: ^0.8.0
+    leaflet: ">=0.7.7 <2.0.0"
+  checksum: 9184e314ac229de7bf54cfbcdc11cfa4049e532d95e1f47fe62575103a6f471827ca661eafd32e52ec711bc0924f0bf6030976a9332f6818990a2852233b5164
+  languageName: node
+  linkType: hard
+
 "@discoveryjs/json-ext@npm:^0.5.0":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -4993,6 +5004,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jupyter-leaflet@workspace:."
   dependencies:
+    "@dguerrero2020/leaflet-splitmap": ^1.0.3
     "@geoman-io/leaflet-geoman-free": ^2.16.0
     "@jupyter-widgets/base": ^2 || ^3 || ^4 || ^5 || ^6
     "@jupyterlab/builder": ^4.0.8
@@ -5025,7 +5037,6 @@ __metadata:
     leaflet-measure: ^3.1.0
     leaflet-rotatedmarker: ^0.2.0
     leaflet-search: 2.9.8
-    leaflet-splitmap: ^1.0.3
     leaflet-transform: ^1.0.3
     leaflet-velocity: ^1.2.4
     leaflet.awesome-markers: ^2.0.5
@@ -5135,17 +5146,6 @@ __metadata:
   dependencies:
     leaflet: "npm:*"
   checksum: 0c39632bedf1cf2fc1e75067ab44620bda9bb516e83b9bd06a0b104b6da3a63cc00799e4998057c47634b96b6f86113a72716fb6f402adc14f000b72a11eed3b
-  languageName: node
-  linkType: hard
-
-"leaflet-splitmap@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "leaflet-splitmap@npm:1.0.3"
-  dependencies:
-    css-img-datauri-stream: "npm:^0.1.5"
-    cssify: "npm:^0.8.0"
-    leaflet: "npm:>=0.7.7 <2.0.0"
-  checksum: 56e40583bc5ce41cffedf457ff06b8dda6083d035f876a91eedd2f369fcfafa039181132b1f9986c1e44283d74495623b1f20974f6a0eb54472e6a887b6feb0e
   languageName: node
   linkType: hard
 

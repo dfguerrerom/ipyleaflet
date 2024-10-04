@@ -40,6 +40,7 @@
     "watch:nbextension": "webpack --watch"
   },
   "dependencies": {
+    "@dguerrero2020/leaflet-splitmap": "^1.0.3",
     "@geoman-io/leaflet-geoman-free": "^2.16.0",
     "@jupyter-widgets/base": "^2 || ^3 || ^4 || ^5 || ^6",
     "buffer": "^6.0.3",
@@ -52,7 +53,6 @@
     "leaflet-measure": "^3.1.0",
     "leaflet-rotatedmarker": "^0.2.0",
     "leaflet-search": "2.9.8",
-    "leaflet-splitmap": "^1.0.3",
     "leaflet-transform": "^1.0.3",
     "leaflet-velocity": "^1.2.4",
     "leaflet.awesome-markers": "^2.0.5",
