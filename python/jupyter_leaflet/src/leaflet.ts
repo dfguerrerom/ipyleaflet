@@ -5,7 +5,7 @@ import 'leaflet-fullscreen';
 import 'leaflet-measure';
 import 'leaflet-rotatedmarker';
 import 'leaflet-search';
-import 'leaflet-splitmap';
+import '@dguerrero2020/leaflet-splitmap';
 import 'leaflet-transform';
 import 'leaflet-velocity';
 import 'leaflet.awesome-markers';
