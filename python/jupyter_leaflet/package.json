@@ -40,7 +40,7 @@
     "watch:nbextension": "webpack --watch"
   },
   "dependencies": {
-    "@dguerrero2020/leaflet-splitmap": "^1.0.4",
+    "@dguerrero2020/leaflet-splitmap": "^1.0.5",
     "@geoman-io/leaflet-geoman-free": "^2.18.0",
     "@jupyter-widgets/base": "^2 || ^3 || ^4 || ^5 || ^6",
     "buffer": "^6.0.3",

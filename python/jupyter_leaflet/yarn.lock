@@ -5,14 +5,14 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@dguerrero2020/leaflet-splitmap@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "@dguerrero2020/leaflet-splitmap@npm:1.0.4"
+"@dguerrero2020/leaflet-splitmap@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "@dguerrero2020/leaflet-splitmap@npm:1.0.5"
   dependencies:
     css-img-datauri-stream: ^0.1.5
     cssify: ^0.8.0
     leaflet: ">=0.7.7 <2.0.0"
-  checksum: a93c4625656cf4357280ac7037c827f68b061a4ad48e7f05e714e4c70b16bf002af382ae91f6eaf0c68cd7e3beba4e10b697545603de01649556ee5e0c5a7b18
+  checksum: 73edb84e5960f523b242c68f01d04ffa8a822617799fd23b88e003f9a1b4ab81b874bec5780fc934b4a132ea7375842d6ba118753bc4797dabbcc37f22069622
   languageName: node
   linkType: hard
 
@@ -5164,7 +5164,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jupyter-leaflet@workspace:."
   dependencies:
-    "@dguerrero2020/leaflet-splitmap": ^1.0.4
+    "@dguerrero2020/leaflet-splitmap": ^1.0.5
     "@geoman-io/leaflet-geoman-free": ^2.18.0
     "@jupyter-widgets/base": ^2 || ^3 || ^4 || ^5 || ^6
     "@jupyterlab/builder": ^4.0.8
